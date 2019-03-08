@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="magang_2018.aseangamesindonesianguide.content.DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar_detail_activity"
+            layout="@layout/toolbar"/>
+
+        <LinearLayout
+            android:layout_below="@id/toolbar_detail_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <magang_2018.aseangamesindonesianguide.customfonts.TextView_Roboto_Regular
+                android:id="@+id/text_view_tanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:text="Tanggal: " />
+
+            <magang_2018.aseangamesindonesianguide.customfonts.TextView_Roboto_Regular
+                android:id="@+id/text_view_creator_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:text="Creator Name"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginBottom="15dp"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/image_view_detail"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginBottom="10dp"/>
+
+            <magang_2018.aseangamesindonesianguide.customfonts.TextView_Roboto_Regular
+                android:id="@+id/text_view_like_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:text="Source: "
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"
+                android:paddingTop="10dp"
+                android:textSize="15sp"/>
+
+            <magang_2018.aseangamesindonesianguide.customfonts.TextView_Roboto_Regular
+                android:id="@+id/text_view_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:text="Detail: "
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>

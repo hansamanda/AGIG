@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/home"
+        android:icon="@drawable/home"
+        />
+
+    <item
+        android:id="@+id/nav_news"
+        android:title="@string/news"
+        android:icon="@drawable/news"
+        />
+
+    <item
+        android:id="@+id/nav_medali"
+        android:title="@string/medali"
+        android:icon="@drawable/medals"
+        />
+
+    <item
+        android:id="@+id/nav_event"
+        android:title="@string/event"
+        android:icon="@drawable/events"
+        />
+
+    <item
+        android:id="@+id/nav_schedule"
+        android:title="@string/schedule"
+        android:icon="@drawable/schedule"
+        />
+
+    <item
+        android:id="@+id/nav_athletes"
+        android:title="@string/athletes"
+        android:icon="@drawable/atheletes"
+        />
+
+    <item
+        android:id="@+id/nav_sport"
+        android:title="@string/sport"
+        android:icon="@drawable/sportss"
+        />
+
+    <item
+        android:id="@+id/nav_destination"
+        android:title="@string/destination"
+        android:icon="@drawable/destination"
+        />
+
+    <item
+        android:id="@+id/nav_forum"
+        android:title="@string/forum"
+        android:icon="@drawable/forum"
+        />
+
+    <item
+        android:id="@+id/nav_chat"
+        android:title="@string/chat"
+        android:icon="@drawable/chat"
+        />
+
+    <item
+        android:id="@+id/nav_login"
+        android:title="@string/login"
+        android:icon="@drawable/login"
+        />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="@string/logout"
+        android:icon="@drawable/logout"
+        />
+
+</menu>

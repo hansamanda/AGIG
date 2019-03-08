@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context="magang_2018.aseangamesindonesianguide.content.DetailActivityAtlit">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+         android:layout_marginTop="18dp"
+        android:id="@+id/image_view_detail"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@mipmap/ic_launcher" 
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+
+    <magang_2018.aseangamesindonesianguide.customfonts.TextView_Roboto_Regular
+        android:id="@+id/text_view_creator_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Atlit: "
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+
+    <magang_2018.aseangamesindonesianguide.customfonts.TextView_Roboto_Regular
+        android:id="@+id/text_view_like_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Negara: "
+        android:textSize="20sp" />
+    <magang_2018.aseangamesindonesianguide.customfonts.TextView_Roboto_Regular
+        android:id="@+id/text_view_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Deskripsi: "
+        android:textSize="15sp" />
+
+</LinearLayout>

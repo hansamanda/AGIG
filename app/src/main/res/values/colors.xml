@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#ffffff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="btnSignUp">#39796B</color>
+    <color name="btnSignActive">#A9D440</color>
+    <color name="black">#000000</color>
+    <color name="utama1">#176dd7</color>
+    <color name="utama2">#17d79e</color>
+    <color name="utama3">#e6c43b</color>
+    <color name="overlayBackground">#7f333639</color>
+    <color name="overlayActionBar">#0e0d0e</color>
+    <color name="lbl_email">#333333</color>
+    <color name="input_login">#222222</color>
+    <color name="input_register">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register_hint">#999999</color>
+    <color name="btn_login_register">#2196F3</color>
+    <color name="btn_register">#0D47A1</color>
+    <color name="btn_logut">#ff6861</color>
+
+    <color name="gold">#E4C42B</color>
+    <color name="silver">#C1C2D0</color>
+    <color name="bronze">#8C7853</color>
+
+    <color name="drawer">#ffffff</color>
+</resources>

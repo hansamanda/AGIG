@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_app_bar"
+    android:layout_width="match_parent"
+    android:layout_height="59dp"
+    android:background="@drawable/toolbar_home">
+
+    <ImageView
+        android:src="@drawable/asian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo" />
+
+</android.support.v7.widget.Toolbar>

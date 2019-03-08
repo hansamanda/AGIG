@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "85272570858",
+    "firebase_url": "https://agig-56cf9.firebaseio.com",
+    "project_id": "agig-56cf9",
+    "storage_bucket": "agig-56cf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85272570858:android:5ba14419bdcbb5a0",
+        "android_client_info": {
+          "package_name": "magang_2018.aseangamesindonesianguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85272570858-n88vqiu8mf731qf01c90g13imm7eo14s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "magang_2018.aseangamesindonesianguide",
+            "certificate_hash": "e9344ceb6f1eeba426273d53121f1f6fbeb81c62"
+          }
+        },
+        {
+          "client_id": "85272570858-jvj0rqpe33g4rgjlbs4qmd9qcmbcla2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmk3kKjAG7jwrEDCEvGnzmBqj8V10rJgM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85272570858-jvj0rqpe33g4rgjlbs4qmd9qcmbcla2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

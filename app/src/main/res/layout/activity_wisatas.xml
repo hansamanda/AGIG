@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context="magang_2018.aseangamesindonesianguide.content.WisatasActivity">
+
+
+    <ImageView
+        android:id="@+id/image_view_detail"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/text_view_detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Creator Name"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/image_view_detail"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_view_detail_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Description: "
+        android:layout_below="@id/text_view_detail_name"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/text_view_detail_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Description: "
+        android:layout_below="@id/text_view_detail_address"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/text_view_detail_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Description: "
+        android:layout_below="@+id/text_view_detail_web"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/text_view_detail_tags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Description: "
+        android:layout_below="@id/text_view_detail_phone"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/text_view_detail_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Description: "
+        android:layout_below="@id/text_view_detail_tags"
+        android:textSize="14sp" />
+
+
+    <Button
+        android:id="@+id/btnPeta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="170dp"
+        android:layout_below="@id/text_view_detail_description"
+        android:layout_alignParentBottom="true"
+        android:background="#ffff"
+        android:text="Buka Peta" />
+
+</RelativeLayout>

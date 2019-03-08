@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back"
+    tools:context=".content.QuestionForumActivity">
+
+    <include
+        android:id="@+id/toolbar_question_activity"
+        layout="@layout/toolbar"/>
+
+    <com.miguelcatalan.materialsearchview.MaterialSearchView
+        android:id="@+id/search_view_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:searchBackground="@color/colorPrimary"
+        app:searchSuggestionBackground="@color/colorPrimary"
+        app:searchCloseIcon="@drawable/ic_action_navigation_close_inverted"
+        app:searchBackIcon="@drawable/ic_action_navigation_arrow_back_inverted"
+        app:searchSuggestionIcon="@drawable/ic_suggestion"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_item_question"
+        android:layout_below="@id/toolbar_question_activity"
+        android:layout_above="@id/linear_layout_add_question"
+        android:layout_marginLeft="8dp"
+        android:scrollbars="none"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:dividerHeight="0.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_add_question"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:background="#fff"
+        android:layout_height="50dp">
+
+        <magang_2018.aseangamesindonesianguide.customfonts.EditText_Roboto_Regular
+            android:id="@+id/edit_text_new_ask_question"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:hint="@string/ask_something"
+            android:textColorHint="#ced5db"
+            android:minWidth="250dp"
+            android:maxWidth="250dp"
+            android:layout_marginStart="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/action_send_question"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_send"
+                android:layout_marginStart="20dp"
+                android:tint="#d9d9d9"
+                android:background="#00000000"
+                android:contentDescription="@string/todo" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
